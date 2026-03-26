@@ -1,0 +1,65 @@
+ body {
+      background-color: #F5C518;
+      
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;  
+    }
+    .card {
+      background-color: white;
+      width: 230px;
+      padding: 9px 12px;
+      border-radius: 8px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+      box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.80);
+    }
+
+    .image {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .learn {
+      width: 50px;
+      background-color: #F5C518;
+      font-weight: bold;
+      padding: 4px 8px;
+      font-size: 13px;
+      border-radius: 3px;
+    }
+
+    .publish {
+      font-size: 12px;
+    }
+
+    .heading {
+      font-weight: bold;
+    }
+
+    .description {
+      font-size: 12px;
+    }
+
+    .flex {
+      display: flex;
+      align-items: center;
+    }
+
+    .profile {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .user {
+      font-weight: bold;
+      margin-left: 8px;
+    }
