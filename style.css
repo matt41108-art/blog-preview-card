@@ -1,7 +1,22 @@
+ @font-face {
+  font-family: 'Figtree';
+  src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+  font-style: italic;
+}
+ 
  body {
       background-color: #F5C518;
       
     }
+  p {
+    font-family: 'Figtree', sans-serif;
+  }
 
     .container {
       display: flex;
@@ -45,6 +60,7 @@
 
     .description {
       font-size: 12px;
+      color: #4B5563;
     }
 
     .flex {
